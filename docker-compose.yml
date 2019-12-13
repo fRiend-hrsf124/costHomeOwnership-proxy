@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  payment_server:
+    image: nickzylstra/hrsf-fec:nz-proxy-server
+    ports:
+      - '80:3000'
